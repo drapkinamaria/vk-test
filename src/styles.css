@@ -1,0 +1,24 @@
+.choose {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.choose-options {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.additions {
+    dispay: flex;
+    width: 765px;
+}
