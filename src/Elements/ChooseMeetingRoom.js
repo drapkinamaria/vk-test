@@ -1,19 +1,18 @@
-import {Dropdown, DropdownButton} from "react-bootstrap";
+import { Dropdown, DropdownButton } from 'react-bootstrap'
 
-export default function ChooseMeetingRoom(props) {
+export default function ChooseMeetingRoom (props) {
+  const { selectedMeetingRoom, onSelect } = props
 
-    const {selectedMeetingRoom, onSelect} = props;
+  const handleSelect = (eventKey) => {
+    onSelect(eventKey)
+  }
 
-    const handleSelect = (eventKey) => {
-        onSelect(eventKey);
-    };
+  const meetingRooms = []
+  for (let i = 1; i <= 10; i++) {
+    meetingRooms.push(i)
+  }
 
-    const meetingRooms = [];
-    for (let i = 1; i <= 10; i++) {
-        meetingRooms.push(i);
-    }
-
-    return (
+  return (
         <DropdownButton
             alignRight
             title={`Выбранная переговорка: ${selectedMeetingRoom}`}
@@ -28,5 +27,5 @@ export default function ChooseMeetingRoom(props) {
                 </Dropdown.Item>
             ))}
         </DropdownButton>
-    );
+  )
 }

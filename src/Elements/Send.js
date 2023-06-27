@@ -1,27 +1,29 @@
-import {Button} from "react-bootstrap";
+import { Button } from 'react-bootstrap'
 
-export default function Send(props) {
-    const { selectedBuilding, selectedFloor, selectedMeetingRoom, additions, selectedDate, selectedTime,
-        selectedTimeNew } = props;
+export default function Send (props) {
+  const {
+    selectedBuilding, selectedFloor, selectedMeetingRoom, additions, selectedDate, selectedTime,
+    selectedTimeNew
+  } = props
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault()
 
-        const data = {
-            selectedBuilding,
-            selectedFloor,
-            selectedMeetingRoom,
-            additions,
-            selectedDate,
-            selectedTime,
-            selectedTimeNew
-        };
-        const newJsonData = JSON.stringify(data);
+    const data = {
+      selectedBuilding,
+      selectedFloor,
+      selectedMeetingRoom,
+      additions,
+      selectedDate,
+      selectedTime,
+      selectedTimeNew
+    }
+    const newJsonData = JSON.stringify(data)
 
-        console.log(newJsonData);
-    };
+    console.log(newJsonData)
+  }
 
-    return (
+  return (
         <div className="send">
             <form onSubmit={handleSubmit}>
                 <Button variant="primary" type="submit">
@@ -29,5 +31,5 @@ export default function Send(props) {
                 </Button>
             </form>
         </div>
-    );
+  )
 }

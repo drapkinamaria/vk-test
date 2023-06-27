@@ -1,15 +1,15 @@
-import {Dropdown, DropdownButton} from "react-bootstrap";
+import { Dropdown, DropdownButton } from 'react-bootstrap'
 
-export default function ChooseBuilding(props) {
-    const { selectedBuilding, onSelect } = props;
+export default function ChooseBuilding (props) {
+  const { selectedBuilding, onSelect } = props
 
-    const handleSelect = (eventKey) => {
-        onSelect(eventKey);
-    };
+  const handleSelect = (eventKey) => {
+    onSelect(eventKey)
+  }
 
-    const buildings = ["A", "Б"];
+  const buildings = ['A', 'Б']
 
-    return (
+  return (
         <DropdownButton
             alignRight
             title={`Выбранная башня: ${selectedBuilding}`}
@@ -24,5 +24,5 @@ export default function ChooseBuilding(props) {
                 </Dropdown.Item>
             ))}
         </DropdownButton>
-    );
+  )
 }

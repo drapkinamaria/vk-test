@@ -1,17 +1,17 @@
-import {useState} from 'react';
-import TimePicker from "react-times";
-import 'react-times/css/material/default.css';
-import 'react-times/css/classic/default.css';
+import { useState } from 'react'
+import TimePicker from 'react-times'
+import 'react-times/css/material/default.css'
+import 'react-times/css/classic/default.css'
 
-export default function TimePickerExample(props) {
-    const { selectedTime, setSelectedTime } = props;
-    const [focused, setFocused] = useState(false);
+export default function TimePickerExample (props) {
+  const { selectedTime, setSelectedTime } = props
+  const [focused, setFocused] = useState(false)
 
-    const handleTimeChange = (options) => {
-        setSelectedTime(JSON.stringify(options));
-    };
+  const handleTimeChange = (options) => {
+    setSelectedTime(JSON.stringify(options))
+  }
 
-    return (
+  return (
         <div className="time">
             <div className="">Выбери время начала брони переговорки</div>
             <TimePicker
@@ -23,5 +23,5 @@ export default function TimePickerExample(props) {
                 timeMode="24"
             />
         </div>
-    );
+  )
 }

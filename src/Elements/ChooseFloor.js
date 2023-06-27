@@ -1,20 +1,20 @@
-import {Dropdown, DropdownButton} from "react-bootstrap";
+import { Dropdown, DropdownButton } from 'react-bootstrap'
 
-export default function ChooseFloor(props) {
-    const { selectedFloor, onSelect } = props;
+export default function ChooseFloor (props) {
+  const { selectedFloor, onSelect } = props
 
-    const handleSelect = (eventKey) => {
-        onSelect(eventKey);
-    };
+  const handleSelect = (eventKey) => {
+    onSelect(eventKey)
+  }
 
-    const floors = [];
-    for (let i = 3; i <= 27; i++) {
-        if (i !== selectedFloor) {
-            floors.push(i);
-        }
+  const floors = []
+  for (let i = 3; i <= 27; i++) {
+    if (i !== selectedFloor) {
+      floors.push(i)
     }
+  }
 
-    return (
+  return (
         <DropdownButton
             alignRight
             title={`Выбранный этаж: ${selectedFloor}`}
@@ -29,5 +29,5 @@ export default function ChooseFloor(props) {
                 </Dropdown.Item>
             ))}
         </DropdownButton>
-    );
+  )
 }

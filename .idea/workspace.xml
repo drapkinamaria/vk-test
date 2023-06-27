@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d48548b-03d7-4130-88d2-c497c8661a7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseBuilding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/ChooseBuilding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseFloor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/ChooseFloor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/ChooseMeetingRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/ChooseMeetingRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Clear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Clear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/DatePickerExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/DatePickerExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/Send.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/Send.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/TimePickerExample.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/TimePickerExample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/TimePickerExampleNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/TimePickerExampleNew.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elements/WriteAdditions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elements/WriteAdditions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -69,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683664604734</updated>
       <workItem from="1683664613606" duration="34815000" />
-      <workItem from="1683966837643" duration="10814000" />
+      <workItem from="1683966837643" duration="11417000" />
+      <workItem from="1687860325553" duration="9294000" />
     </task>
     <servers />
   </component>
